@@ -1,0 +1,28 @@
+// Reescribir variables de bootstrap
+
+
+$rojo:   #f34f51;
+$verde:  #0098AE;
+$oscuro: #212121;
+
+//Asignar paleta de colores a bootstrap
+$primary: $rojo;
+$secondary: $verde;
+$dark: $oscuro;
+$gris: #b5b5b5;
+
+$display-font-weight: 900;
+$headings-font-weight: 700;
+
+
+/*Nav-link*/
+$nav-link-padding-x:                0rem !default;
+$nav-link-color:                    $gris;
+$nav-link-hover-color:              darken($gris, 10%) !default;
+
+
+/** Cards */
+$card-border-color: transparent;
+
+//Importar Bootstrap
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
